@@ -1,0 +1,45 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    background-color: white;
+    padding-top: 25px;
+}
+
+.social-header{
+    margin-top: 12px;
+}
+
+
+.social-header a{
+    font-size: 30px;
+}  
+    .social-header a:hover{
+    color: palevioletred;
+    }
+
+
+.menu-bar{
+    background-color: palevioletred;
+    margin-top: 20px;
+}
+    .menu-bar a{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .menu-bar a:hover{
+        text-decoration: none;
+        color:#ffcc99;
+    }
+
+.menu-list{
+    padding: 12px 0;
+    margin-bottom: 0;
+}
+    .menu-list > li:not(:last-child)
+    {
+        margin-right: 40px;
+    } 
